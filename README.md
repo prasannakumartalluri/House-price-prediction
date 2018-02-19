@@ -10,12 +10,15 @@ To predict the price of each home first we will construct the decision trees usi
 2.	Build the Decision tree associated to these K data points.
 3.	Choose the number Ntree of trees to be built and repeat steps 1&2.
 4.	For new data point, make each of Ntree trees predict the value of Y to for the data point in problem, and assign the new data point the average across all the predicted Y values.
+
 Advantages:
 •	This algorithm can solve both the machine learning problems I;e classification & regression.
 •	It is accurate when huge population of data is missing and it is good in estimating missing data.
+
 Disadvantages:
 •	It gives good results to classification problems compared to regression.
 •	In regression problems it cannot predict beyond the range in the training set.
+
 Expectation from results:
 With 80 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, the project goal is to predict the final price of each home.
 The dataset I’m using in this project lends itself to advanced machine learning techniques like random forests and gradient boosting.
